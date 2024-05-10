@@ -1,0 +1,25 @@
+@mixin clr() {
+	&:after {
+		clear: both;
+		content: '.';
+		display: block;
+		height: 0;
+		line-height: 0;
+		overflow: hidden;
+	}
+	*height: 1%;
+}
+@mixin ell() {
+	overflow: hidden;
+	-ms-text-overflow: ellipsis;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+@mixin ell2($height: 2) {
+	word-break: break-all;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: $height;
+	overflow: hidden;
+}

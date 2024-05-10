@@ -1,0 +1,131 @@
+.cart-page{
+	background-color: #F7F8FA;
+}
+.cart-top{
+	background-color: #fff;
+	position: fixed;
+	width: 100vw;
+	z-index: 10;
+}
+.cart-container{
+	width: 100%;
+	// height: 78rpx;
+	background-color: #FFFFFF;
+	// box-sizing: border-box;
+	padding: 0 30rpx;
+	margin-bottom: 16rpx;
+	
+	.tip{
+		font-size: 26rpx;
+		font-family: PingFang SC;
+		color: #999999;
+		line-height: 78px;
+	}
+	.operate{
+		font-size: 28rpx;
+		font-family: PingFang SC;
+		color: #333333;
+		line-height: 78px;
+	}
+}
+.cart-main{
+	padding-bottom: 100rpx;
+}
+.cart-item{
+	background-color: #fff;
+	width: 100%;
+	padding: 30rpx 34rpx;
+	margin-bottom: 13rpx;
+	.select{
+		width: 38rpx;
+		height: 38rpx;
+	}
+	.img{
+		width: 170rpx;
+		height: 170rpx;
+		border-radius: 14rpx;
+		margin: 0 37rpx 0 20rpx;
+	}
+	.info{
+		height: 170rpx;
+	}
+	.title{
+		font-size: 30rpx;
+		font-family: PingFang SC;
+		font-weight: bold;
+		color: #333333;
+	}
+	.spec{
+		font-size: 26px;
+		font-family: PingFang SC;
+		color: #666666;
+	}
+	.price-item{
+		font-size: 30rpx;
+		font-weight: bold;
+		color: #333333;
+	}
+	.price{
+		font-size: 38rpx;
+	}
+	.minus, .plus{
+		color: #000;
+		margin: 13rpx;
+	}
+	.input{
+		width: 59rpx;
+		height: 39rpx;
+		text-align: center;
+		color: #333333;
+		font-weight: bold;
+		font-size: 28rpx;
+		background-color: #F6F6F6;
+		line-height: 39rpx;
+	}
+}
+.cart-bottom{
+	width: 100%;
+	height: 100rpx;
+	position: fixed;
+	bottom: 0;
+	background-color: #fff;
+	box-shadow: 0rpx -2rpx 11rpx 0rpx rgba(153,153,153,0.15);
+	.bottom-box{
+		border-bottom: 5rpx solid #F7F8FA;
+		height: 100rpx;
+		box-sizing: border-box;
+	}
+	.select{
+		width: 38rpx;
+		height: 38rpx;
+		margin: 0 19rpx 0 50rpx;
+	}
+	.bottom-tip{
+		font-size: 28rpx;
+		font-family: PingFang SC;
+		color: #333333;
+		margin-right: 31rpx;
+	}
+	.num{
+		font-weight: bold;
+	}
+	.price-item{
+		.price-all{
+			font-size: 30rpx;
+			font-weight: bold;
+		}
+		.price{
+			font-size: 38rpx;
+		}
+	}
+	.buy-btn{
+		width: 191rpx;
+		height: 100rpx;
+		background-color: #333333;
+		color: #fff;
+		text-align: center;
+		line-height: 100rpx;
+		font-size: 30rpx;
+		font-family: PingFang SC;
+	}
+}

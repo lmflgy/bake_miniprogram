@@ -1,0 +1,17 @@
+{
+    "id": "router-module-pages",
+    "name": "pagesJson路由模块化插件",
+    "version": "1.1.1",
+    "description": "@ctrlc/uni-module-pages是处理pages.json模块化的路由插件，可用于将pages.json文件中pages属性和subPackages属性拆分出不同的文件管理。",
+    "keywords": [
+        "pages.json",
+        "路由",
+        "router"
+    ],
+    "dcloudext": {
+        "category": [
+            "JS SDK",
+            "通用 SDK"
+        ]
+    }
+}

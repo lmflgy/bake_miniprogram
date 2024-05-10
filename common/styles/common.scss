@@ -1,0 +1,93 @@
+@import './_mixin.scss';
+@import './_variables.scss';
+.u-flex {
+	/* #ifndef APP-NVUE */
+	display: flex;
+	/* #endif */
+	flex-direction: row;
+	align-items: center;
+}
+
+.u-flex-wrap {
+	flex-wrap: wrap;
+}
+
+.u-flex-nowrap {
+	flex-wrap: nowrap;
+}
+
+.u-col-center {
+	align-items: center;
+}
+
+.u-col-top {
+	align-items: flex-start;
+}
+
+.u-col-bottom {
+	align-items: flex-end;
+}
+
+.u-row-center {
+	justify-content: center;
+}
+
+.u-row-left {
+	justify-content: flex-start;
+}
+
+.u-row-right {
+	justify-content: flex-end;
+}
+
+.u-row-between {
+	justify-content: space-between;
+}
+
+.u-row-around {
+	justify-content: space-around;
+}
+.u-flex-col {
+	/* #ifndef APP-NVUE */
+	display: flex;
+	/* #endif */
+	flex-direction: column;
+}
+.u-flex-1 {
+	flex: 1;
+}
+.bread-main {
+	height: 83.33rpx;
+	padding: 0 27.78rpx;
+}
+.my-button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 139.58rpx;
+	height: 44.44rpx;
+	background-color: rgba(0, 0, 0, 0.05);
+	&__txt {
+		font-size: 16.67rpx;
+		color: rgba(0, 0, 0, 0.5);
+		margin-left: 4rpx;
+	}
+}
+.big-btn {
+	color: $colorWhite;
+	border-radius: 0;
+	width: 694.44rpx;
+	height: 83.33rpx;
+	box-sizing: border-box;
+	.btn-txt {
+		font-size: 22.22rpx;
+		color: #fff;
+		margin-left: 20.83rpx;
+	}
+}
+.btn-bg__black {
+	background: $colorBlack;
+}
+.btn-bg__blue {
+	background: $colorBlue;
+}

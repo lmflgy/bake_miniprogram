@@ -1,0 +1,30 @@
+.contact{
+	background-color: #fff;
+	height: 100vh;
+}
+.contact-page{
+	padding-top: 158rpx;
+	.contact-img{
+		width: 412rpx;
+		height: 412rpx;
+		background: url('@/static/contact-bg.png') 100% no-repeat;
+		background-size: 100% 100%;
+		margin: 0 auto 39rpx;
+	}
+	.img1{
+		width: 288rpx;
+		height: 286rpx;
+	}
+	.tip{
+		width: 350rpx;
+		height: 70rpx;
+		background-color: #333333;
+		border-radius: 32px;
+		color: #fff;
+		text-align: center;
+		line-height: 70rpx;
+		font-size: 30rpx;
+		font-family: PingFang SC;
+		margin: auto;
+	}
+}

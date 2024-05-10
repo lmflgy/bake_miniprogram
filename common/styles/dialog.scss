@@ -1,0 +1,32 @@
+.dialog-title {
+	height: 134.03rpx;
+	width: 694.44rpx;
+	background-color: $uni-bg-color;
+	padding: 34.72rpx 27.78rpx 36.81rpx 27.78rpx;
+	box-sizing: border-box;
+	&__en{
+			font-size: 34.72rpx;
+			font-weight: normal;
+			font-stretch: normal;
+			// line-height: 19.44rpx;
+			letter-spacing: 0px;
+			color: #000000;
+	}
+	&_zh{
+			font-size: 22.22rpx;
+			font-weight: normal;
+			font-stretch: normal;
+			line-height: 31.25rpx;
+			letter-spacing: 0px;
+			color: #000000;
+			margin-top: 15.97rpx;
+	}
+}
+.dialog-body{
+	padding:27.78rpx 0 61.11rpx;
+	box-sizing: border-box;
+	width: 638.89rpx;
+	margin: 0 auto;
+	// height: 120rp;
+	// height: 40rp;
+}
